@@ -1,0 +1,54 @@
+body {
+  background-color: #ffffe6;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(41, 41, 218);
+  color: white;
+}
+#foto {
+  float: center;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.datos, .estudiosRealizados {
+    font-style: italic;
+    font-family: negrilla;
+}
+
+.datosPersonales {
+  margin: auto;
+  padding: 10px 10px;
+  display: grid;
+  grid-template-columns:5fr 1fr;
+  gap: 10px;
+}
+
+header,
+div,
+section,
+footer {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+section p {
+  font-size: 13px;
+  color: #00004d;
+}
+
+footer {
+  background-color: rgb(27, 27, 27);
+  color: #ffffe6;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+ .contacto {
+  width: 25px;
+  height: 25px;
+ }
